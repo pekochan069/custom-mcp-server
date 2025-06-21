@@ -1,0 +1,3 @@
+{
+  "plugins": ["eslint", "import", "jsdoc", "node", "oxc", "promise", "typescript", "unicorn"]
+}
