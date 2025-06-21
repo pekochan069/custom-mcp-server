@@ -1,5 +1,6 @@
 {
   "name": "custom-mcp-server",
+  "type": "module",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -9,7 +10,6 @@
     "run:server": "bun run apps/server/dist/index.js",
     "run:client": "bun run apps/client/dist/index.js"
   },
-  "type": "module",
   "devDependencies": {
     "oxlint": "^1.2.0",
     "prettier": "^3.5.3",
@@ -18,8 +18,5 @@
   "workspaces": [
     "apps/*"
   ],
-  "packageManager": "bun@1.2.4",
-  "dependencies": {
-    "zod": "^3.25.67"
-  }
+  "packageManager": "bun@1.2.4"
 }
